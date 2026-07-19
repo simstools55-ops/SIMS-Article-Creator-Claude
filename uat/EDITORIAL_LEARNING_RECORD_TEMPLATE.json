@@ -1,0 +1,28 @@
+{
+  "format": "SIMS_EDITORIAL_LEARNING_RECORD_V1",
+  "record_version": "1.0.0",
+  "test_id": "",
+  "keyword": "",
+  "primary_pattern": "",
+  "secondary_patterns": [],
+  "publication_gate": "",
+  "human_result": "",
+  "scores": {
+    "intent": 0,
+    "pattern": 0,
+    "coverage": 0,
+    "evidence": 0,
+    "article": 0,
+    "editorial": 0
+  },
+  "defects": [],
+  "successful_elements": [],
+  "recommended_changes": {
+    "project_instructions": [],
+    "runtime": [],
+    "knowledge": [],
+    "patterns": [],
+    "contract": [],
+    "templates": []
+  }
+}

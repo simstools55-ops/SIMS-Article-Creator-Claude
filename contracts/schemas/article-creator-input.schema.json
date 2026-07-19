@@ -1,0 +1,263 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sims.local/schemas/article-creator-input.schema.json",
+  "title": "SIMS Article Creator Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "main_keyword"
+  ],
+  "properties": {
+    "main_keyword": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "supporting_keywords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "site_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "site_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "site_category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_audience": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "existing_categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "article_goal": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reader_hint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "article_type_hint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reference_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "source_materials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "content_or_reference"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "content_or_reference": {
+            "type": "string"
+          },
+          "source_type": {
+            "type": "string",
+            "enum": [
+              "FIRST_PARTY",
+              "OFFICIAL",
+              "PRIMARY",
+              "SECONDARY",
+              "USER_PROVIDED",
+              "OTHER"
+            ]
+          },
+          "verified": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    },
+    "first_party_experience": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "details": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "allowed_usage": {
+          "type": "string",
+          "enum": [
+            "NONE",
+            "FACTUAL_ONLY",
+            "QUOTABLE"
+          ]
+        }
+      }
+    },
+    "internal_link_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "topic": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "monetization_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "model": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ADSENSE",
+              "AMAZON",
+              "RAKUTEN",
+              "ASP",
+              "OWN_PRODUCT",
+              "NONE"
+            ]
+          }
+        },
+        "products_or_services": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "disclosure_required": {
+          "type": "boolean"
+        }
+      }
+    },
+    "style_preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "tone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reader_level": {
+          "type": "string",
+          "enum": [
+            "BEGINNER",
+            "INTERMEDIATE",
+            "ADVANCED",
+            "MIXED"
+          ]
+        },
+        "target_length": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 500
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "MARKDOWN",
+            "HTML",
+            "PLAIN_TEXT"
+          ]
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "must_include": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "must_avoid": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prohibited_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ymyl_mode": {
+          "type": "string",
+          "enum": [
+            "AUTO",
+            "STRICT",
+            "OFF"
+          ]
+        }
+      }
+    }
+  }
+}

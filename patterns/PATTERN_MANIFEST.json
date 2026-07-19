@@ -1,0 +1,70 @@
+{
+  "format": "SAC_PATTERN_MANIFEST_V1",
+  "version": "1.0.0",
+  "patterns": [
+    {
+      "id": "HOWTO",
+      "name": "HowTo",
+      "file": "howto.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "TROUBLESHOOTING",
+      "name": "Troubleshooting",
+      "file": "troubleshooting.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "COMPARISON",
+      "name": "Comparison",
+      "file": "comparison.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "BUYING_GUIDE",
+      "name": "Buying Guide",
+      "file": "buying_guide.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "DEFINITION",
+      "name": "Definition",
+      "file": "definition.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "REVIEW",
+      "name": "Review",
+      "file": "review.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "LOCAL_GUIDE",
+      "name": "Local Guide",
+      "file": "local_guide.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "SEASONAL",
+      "name": "Seasonal / Freshness",
+      "file": "seasonal.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    }
+  ]
+}

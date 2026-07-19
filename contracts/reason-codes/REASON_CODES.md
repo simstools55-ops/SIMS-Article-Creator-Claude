@@ -1,0 +1,15 @@
+# Reason Codes v1.0
+
+- `INPUT_VALID`: 入力が処理可能
+- `INPUT_INSUFFICIENT`: 重要入力が不足
+- `INTENT_AMBIGUOUS`: 検索意図を一意に定められない
+- `ARTICLE_PLAN_VALID`: 記事企画が妥当
+- `EVIDENCE_SUFFICIENT`: 重要主張の根拠が充足
+- `EVIDENCE_INSUFFICIENT`: 根拠不足
+- `YMYL_REVIEW_REQUIRED`: YMYL上の人手確認が必要
+- `STRUCTURE_VALID`: 構成が検索意図と一致
+- `CONTENT_REVISION_REQUIRED`: 本文修正が必要
+- `PUBLICATION_READY`: 公開可能
+- `PUBLICATION_BLOCKED`: 公開不可
+- `FABRICATION_RISK`: 捏造リスクを検出
+- `MONETIZATION_MISALIGNED`: 収益導線が読者利益と不整合
