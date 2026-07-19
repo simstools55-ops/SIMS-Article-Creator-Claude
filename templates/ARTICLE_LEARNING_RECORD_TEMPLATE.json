@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_LEARNING_RECORD_V1",
-  "record_version": "1.0.0",
+  "record_version": "1.1.0",
   "record_status": "PROVISIONAL",
   "record_id": "",
   "execution_id": "",
@@ -26,11 +26,20 @@
     "manual_edit_minutes": null,
     "edit_level": null,
     "edited_components": [],
+    "dimension_scores": {
+      "seo_quality": null,
+      "blogger_voice": null,
+      "reader_satisfaction": null,
+      "factual_reliability": null,
+      "monetization_quality": null,
+      "publish_workability": null
+    },
     "reviewer_notes": ""
   },
   "diagnosis": {
     "confirmed_defects": [],
     "root_cause_candidates": [],
-    "recommended_changes": []
+    "recommended_changes": [],
+    "asset_change_candidates": []
   }
 }

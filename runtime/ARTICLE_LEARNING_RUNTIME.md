@@ -1,42 +1,53 @@
-# Article Learning Runtime v1.0
+# Article Learning Runtime v1.1
 
 ## Purpose
-実記事UATの結果を記事単位で構造化し、10件ごとに再発問題と成功パターンを集計する。記事生成品質を自己改変ではなく、監査可能な改善候補として蓄積する。
+実記事UATを記事単位で構造化し、10件ごとに再発問題、成功パターン、改善対象資産、リリース可否を監査可能な形で集計する。
 
 ## Trigger
-- 記事生成がR18まで完了したとき: provisional Learning Recordを生成する。
-- ユーザーが公開可否、修正内容、修正時間を返したとき: confirmed Learning Recordへ更新する。
-- confirmed recordが10件入力されたとき: Batch Learning Reportを生成する。
+- R18完了時: PROVISIONAL Learning Recordを生成。
+- ユーザーが公開可否、修正内容、修正時間、評価を返した時: CONFIRMEDへ更新。
+- CONFIRMED 10件入力時: Batch Learning Reportを生成。
 
 ## Per-article workflow
 1. article_id / execution_id / keyword / article_type / monetizationを記録。
-2. 自動評価値をsystem_evaluationへ転記。
-3. 初回はrecord_status=PROVISIONALとする。
-4. human_reviewは未入力項目をnullにし、推測で埋めない。
-5. ユーザー評価後はrecord_status=CONFIRMEDとし、manual_edit_minutes、publish_ready、edited_components、defectsを更新。
-6. root_cause_candidatesをProject Instructions / Runtime / Knowledge / Patterns / Contract / Templates / Input Dataへ分類。
-7. 記事本文・個人情報・アフィリエイトURL全文はLearning Recordに複製しない。識別に必要な最小情報だけを保持する。
+2. 自動評価をsystem_evaluationへ転記。
+3. 初回はrecord_status=PROVISIONAL。
+4. human_reviewは推測せず、未入力はnull。
+5. 人間評価後はpublish_ready、published、manual_edit_minutes、edit_level、edited_components、dimension_scoresを更新。
+6. 原因は定義済みtaxonomyで分類する。取得不能はSEARCH_LIMITATION、入力不足はUSER_INPUT、プロフィール不足はBLOG_PROFILEを優先し、INPUT_DATAへ過度に集約しない。
+7. asset_change_candidatesに対象ファイル、根拠、優先度、期待効果、回帰リスクを記録する。
+8. 記事本文・個人情報・完全なアフィリエイトURLは複製しない。
 
 ## Ten-record aggregation
-10件のCONFIRMED recordのみを正式集計対象とする。
+CONFIRMED 10件のみを正式集計する。
 - article type別件数と合格率
 - 平均・中央値の人手修正時間
-- defect codeの発生回数
-- edited componentの発生回数
+- 人間評価の平均値
+- defect / edited component / root causeの発生回数
 - successful elementの再現回数
-- root cause target別の改善候補
-- Priority A/B/C
+- article_history（各記事の判定と修正時間）
+- asset_ranking（改善対象資産ランキング）
+- release_assessment
 
-Priority A: 10件中5件以上、または公開阻害が1件以上。
-Priority B: 10件中2〜4件。
-Priority C: 10件中1件、または観察継続。
+## Priority
+- A: 10件中5件以上、公開阻害1件以上、または重大欠陥。
+- B: 10件中2〜4件。
+- C: 10件中1件、または観察継続。
 
-## Safety and governance
-- 1記事だけの印象でRuntimeやKnowledgeの変更を確定しない。
-- 記録にない事実を補完しない。
-- 学習はモデル再訓練ではなく、製品資産の改善候補抽出である。
-- 自動適用は禁止。変更提案には対象ファイル、根拠件数、期待効果、回帰リスクを含める。
+## Asset ranking
+根拠件数を主軸とし、公開阻害度を加点、回帰リスクを併記する。順位だけで自動変更しない。
+
+## Release recommendation
+- RELEASE_CANDIDATE: critical=0、major<=1、publish_ready_rate>=80%、平均修正時間<=20分、平均人間評価>=80。
+- HOLD_RELEASE: critical>=1、またはpublish_ready_rate<50%。
+- その他: CONTINUE_UAT。
+基準未入力時はCONTINUE_UATとし、推測でRELEASE_CANDIDATEにしない。
+
+## Governance
+- 1記事だけで製品資産の変更を確定しない。
+- 学習はモデル再訓練ではなく、製品資産の改善候補抽出。
+- 自動適用禁止。人間承認後のみ反映。
 
 ## Output
-記事ごと: SIMS_ARTICLE_LEARNING_RECORD_V1 JSON
-10記事ごと: SIMS_ARTICLE_LEARNING_REPORT_V1 JSON + 人間向け要約
+- 記事ごと: SIMS_ARTICLE_LEARNING_RECORD_V1 JSON
+- 10記事ごと: SIMS_ARTICLE_LEARNING_REPORT_V1 JSON + 人間向け要約 + Release Recommendation

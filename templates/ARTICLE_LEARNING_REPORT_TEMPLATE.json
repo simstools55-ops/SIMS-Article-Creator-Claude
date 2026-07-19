@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_LEARNING_REPORT_V1",
-  "report_version": "1.0.0",
+  "report_version": "1.1.0",
   "batch_id": "",
   "generated_at": "",
   "batch_size": 10,
@@ -10,12 +10,27 @@
     "published_rate": null,
     "average_manual_edit_minutes": null,
     "median_manual_edit_minutes": null,
+    "average_human_score": null,
     "edit_level_counts": {},
-    "article_type_counts": {}
+    "article_type_counts": {},
+    "root_cause_counts": {}
   },
+  "article_history": [],
   "recurring_defects": [],
   "successful_patterns": [],
+  "asset_ranking": [],
   "change_candidates": [],
   "next_uat_focus": [],
-  "release_recommendation": "CONTINUE_UAT"
+  "release_assessment": {
+    "recommendation": "CONTINUE_UAT",
+    "critical_defects": 0,
+    "major_defects": 0,
+    "minor_defects": 0,
+    "publish_ready_rate": null,
+    "average_manual_edit_minutes": null,
+    "average_human_score": null,
+    "passed_criteria": [],
+    "failed_criteria": [],
+    "rationale": ""
+  }
 }
