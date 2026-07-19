@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.1 - Learning Foundation
+- Added per-article SIMS_ARTICLE_LEARNING_RECORD_V1 output.
+- Added provisional and confirmed UAT record states.
+- Added ten-record SIMS_ARTICLE_LEARNING_REPORT_V1 aggregation.
+- Added human feedback template and asset-level root-cause routing.
+- Added governance rules preventing unapproved automatic self-modification.
+- Updated Article Creator contract to 1.2.0.
+
 ## 0.7.0 - 2026-07-19
 - Personal Blogger Edition基盤を追加
 - Runtime Lock、Monetization Router、Editorial Voice、Publish Modeを追加

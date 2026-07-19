@@ -1,6 +1,6 @@
 {
   "product": "SIMS Article Creator",
-  "version": "0.6.0",
+  "version": "0.7.1",
   "release": "UAT Prototype",
   "utf8": "PASS",
   "json": "PASS",
@@ -38,5 +38,8 @@
   ],
   "pattern_count": 8,
   "repository_file_count": 121,
-  "runtime_dependency_on_sims_writer": false
+  "runtime_dependency_on_sims_writer": false,
+  "release_name": "Learning Foundation",
+  "learning_foundation": "PASS",
+  "contract_version": "1.2.0"
 }

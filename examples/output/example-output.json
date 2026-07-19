@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_CREATOR_V1",
-  "contract_version": "1.1.0",
+  "contract_version": "1.2.0",
   "execution": {
     "execution_id": "SAC-20260719-0001",
     "reference_date": "2026-07-19",
