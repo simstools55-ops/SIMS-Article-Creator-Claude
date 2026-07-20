@@ -17,3 +17,5 @@
 13. FRESHNESS_AND_MAINTENANCE
 
 実際の登録情報と適用条件は`KNOWLEDGE_MANIFEST.json`を参照する。
+
+- `UAT_QUALITY_ENHANCEMENT_KNOWLEDGE.md`: 実記事UAT由来のHidden Anxiety、Intent Gap、Selection Guidance、Evidence Transparency、HTML出力規則。

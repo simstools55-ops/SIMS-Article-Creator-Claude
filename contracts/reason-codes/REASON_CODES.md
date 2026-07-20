@@ -17,6 +17,8 @@
 - `RUNTIME_LOCKED`: 記事生成Runtimeを正常起動
 - `AFFILIATE_LINK_MISSING`: 入力済みリンクが本文に未挿入
 - `PR_DISCLOSURE_MISSING`: PR表記不足
-- `BODY_MARKDOWN_INCOMPLETE`: 完成記事全文が未格納
+- `BODY_HTML_INCOMPLETE`: 完成記事全文が未格納
 - `REVIEW_SOURCE_UNCLASSIFIED`: 口コミ出典区分不足
 - `EDITORIAL_VOICE_VALID`: 個人ブロガー文体と事実分離が妥当
+
+- `HTML_INVALID`: 完成記事HTMLの構造が不正、またはMarkdown記法が混在

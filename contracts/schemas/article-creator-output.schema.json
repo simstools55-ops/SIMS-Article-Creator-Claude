@@ -273,7 +273,7 @@
       "required": [
         "main_keyword",
         "title",
-        "body_markdown",
+        "body_html",
         "word_count",
         "first_party_experience"
       ],
@@ -283,9 +283,6 @@
           "type": "string"
         },
         "title": {
-          "type": "string"
-        },
-        "body_markdown": {
           "type": "string"
         },
         "word_count": {
@@ -314,12 +311,12 @@
         "publishing_format": {
           "type": "string",
           "enum": [
-            "MARKDOWN",
-            "WORDPRESS",
-            "HATENA",
-            "HTML",
-            "PLAIN_TEXT"
+            "HTML"
           ]
+        },
+        "body_html": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },
@@ -733,10 +730,9 @@
         "platform": {
           "type": "string",
           "enum": [
+            "HTML",
             "WORDPRESS",
-            "HATENA",
-            "MARKDOWN",
-            "OTHER"
+            "HATENA"
           ]
         },
         "copy_ready": {

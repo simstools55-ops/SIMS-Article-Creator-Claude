@@ -220,9 +220,7 @@
         "format": {
           "type": "string",
           "enum": [
-            "MARKDOWN",
-            "HTML",
-            "PLAIN_TEXT"
+            "HTML"
           ]
         }
       }
