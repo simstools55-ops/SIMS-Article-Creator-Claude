@@ -1,4 +1,4 @@
-# Pattern Library Index v1.0
+# Pattern Library Index v1.1
 
 Patternは記事の書式テンプレートではなく、検索意図に応じた設計・品質判定ルールである。
 
