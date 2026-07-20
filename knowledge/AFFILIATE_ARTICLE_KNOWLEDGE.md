@@ -1,9 +1,13 @@
-# Affiliate Article Knowledge v1.0
+# Affiliate Article Knowledge v1.0.1
 
 ## URLの分離
 - product_reference_url: 商品・教材・サービス内容を確認する調査元。
 - affiliate_url: 完成記事のCTAへ挿入する計測リンク。
 短縮URLやASPリンクは調査元として扱わない。
+
+## robots・取得制限時の代替調査
+直接取得できない場合は、同一ドメインの公式FAQ、特商法、料金ページ、会社概要、公式検索スニペット、公式YouTube・SNS・プレスリリースの順に確認する。robots制限を回避しない。
+価格、返品条件、キャンペーン、受講者数、セット内容など購入判断に重要な項目を一次情報で確認できない場合はEvidence Gapとし、断定しない。
 
 ## 必須要素
 アフィリエイト記事には、PR表記、商品概要、判断材料、メリット、デメリット、向いている人、向いていない人、重要条件、自然なCTAを含める。

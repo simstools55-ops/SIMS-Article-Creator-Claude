@@ -1,4 +1,4 @@
-# SIMS Article Creator Claude Project v1.0.0
+# SIMS Article Creator Claude Project v1.0.1
 
 このZIPはClaude Project投入用の正式配布版です。既存プロジェクトのKnowledgeとInstructionsを全置換してください。
 
