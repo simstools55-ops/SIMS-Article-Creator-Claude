@@ -6,3 +6,6 @@
 
 
 `shared/`はShared Repository由来の読取専用スナップショットです。Claude Projectへフォルダごと登録し、Article Creator側で内容を編集しないでください。
+
+
+Shared Editorial Knowledge v1.1.1 integrated.

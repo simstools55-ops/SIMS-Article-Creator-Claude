@@ -30,3 +30,11 @@ Local Guideでは、価格・営業時間が公式取得不可でも、公式関
 
 ## Scored checks
 Search intent, reader value, hidden-anxiety resolution, coverage, evidence, evidence transparency, readability, originality, SEO, editorial voice, selection guidance, CTA naturalness, internal-link context, HTML validity, publish readiness.
+
+
+## v1.2.1 Additional gates
+- Central claim evidence is checked before peripheral claims.
+- Marketplace listing must not be labeled official without official evidence.
+- "Not found" must be scoped to reviewed sources; absence claims require stronger evidence.
+- Stale price, refund, cancellation, taxonomy, and制度情報 require a freshness warning or removal.
+- `fabrication_risk: NONE` is not used when material claims remain only partially verified.

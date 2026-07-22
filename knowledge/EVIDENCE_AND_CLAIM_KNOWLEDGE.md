@@ -15,3 +15,10 @@
 5. 一般媒体・ユーザー投稿
 
 低位ソースしかない場合は確度を下げ、断定を避ける。
+
+
+## v1.2.1 Central Claim Priority
+タイトル、Central Answer、結論の中心主張を最優先で検証する。周辺FAQが検証済みでも中心主張にEvidence GapがあればPASSにしない。
+
+## Source-scope wording
+資料で確認できない場合は「今回確認した資料では確認できなかった」とし、「存在しない」と断定しない。Evidenceの強さに応じて表現を弱める。
