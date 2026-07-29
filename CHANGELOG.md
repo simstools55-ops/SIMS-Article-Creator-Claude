@@ -7,3 +7,9 @@
 
 ## 1.2.0 - 2026-07-21
 - Production baseline.
+
+## 1.3.0 - Quality Hardening
+- Added Pre-Publish Quality Gate.
+- Added Evidence/Freshness/Promise/Numeric/Concept/FAQ/Internal-Link/Output-Sync checks.
+- Added HOWTO-011 and enhanced Learning classification.
+- Integrated Shared Editorial Knowledge v2.5.0 snapshot.

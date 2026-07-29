@@ -51,3 +51,13 @@ CONFIRMED 10件のみを正式集計する。
 ## Output
 - 記事ごと: SIMS_ARTICLE_LEARNING_RECORD_V1 JSON
 - 10記事ごと: SIMS_ARTICLE_LEARNING_REPORT_V1 JSON + 人間向け要約 + Release Recommendation
+
+## v1.3.0 Learning Classification
+改善候補は次のいずれかへ分類する。
+- EXISTING_PATTERN_APPLIED: 既存ルールの適用で解消した記事固有事例。
+- NEW_PATTERN_CANDIDATE: 複数記事で再発し、既存ルールにない候補。
+- KNOWLEDGE_IMPROVEMENT: 共有知識の説明・境界・例示の改善候補。
+- RUNTIME_IMPROVEMENT: 実行順・Gate・同期処理の改善候補。
+- SHARED_IMPROVEMENT: Writer/Creator共通で価値がある改善候補。
+
+新規Pattern候補の前に既存ルールとの重複を確認し、canonical_ruleを記録する。Evidence mismatch、freshness、promise、numeric mismatch、concept confusion、output syncをroot cause候補として区別する。

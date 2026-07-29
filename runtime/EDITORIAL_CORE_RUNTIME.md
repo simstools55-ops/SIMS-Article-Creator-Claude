@@ -18,3 +18,8 @@ Execute in this exact order.
 14. Emit the final article and SIMS_ARTICLE_CREATOR_V1 JSON.
 
 Never invent facts, evidence, experience, quotes or reviews. Never skip planning artifacts.
+
+
+## Shared v1.3.0 Common Validation
+
+公開前にVAL-FACT-001、VAL-EVIDENCE-002、VAL-CAUSAL-001、VAL-CONSISTENCY-001、VAL-ENTITY-001、VAL-LINK-001を適用する。Creator Identity Lockを維持し、Query Coverage、QUERY_MIX、Winner Query Preservation、SIMS_FEEDBACK_V2、Before／Afterは導入しない。
