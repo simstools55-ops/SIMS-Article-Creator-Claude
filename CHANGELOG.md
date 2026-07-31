@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.0 - 2026-08-01
+- Added section-depth weighting based on search-intent importance.
+- Added multi-concept relationship diagram pattern.
+- Added search-intent-readable H2 rules.
+- Standardized internal-link candidate states: CANDIDATE_TOPIC / CONFIRMED.
+- Standardized freshness expressions with writing/check month.
+- Added R16.5 SERP Self-Review before Publication Gate.
+- Kept all changes Creator-scoped; Shared snapshot and Writer mapping are unchanged.
+
+
 ## 1.2.1 - 2026-07-22
 - Shared Editorial Knowledge v1.1.1へ同期。
 - Definition / Buying Guide RuntimeのEvidence制御を強化。

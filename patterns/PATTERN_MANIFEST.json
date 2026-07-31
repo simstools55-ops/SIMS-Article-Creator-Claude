@@ -1,6 +1,6 @@
 {
   "format": "SAC_PATTERN_MANIFEST_V1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "patterns": [
     {
       "id": "HOWTO",
@@ -65,6 +65,22 @@
       "status": "ACTIVE",
       "version": "1.0.0",
       "allowed_as_primary": true
+    },
+    {
+      "id": "SECTION_DEPTH_WEIGHTING",
+      "name": "Section Depth Weighting",
+      "file": "section-depth-weighting-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": false
+    },
+    {
+      "id": "MULTI_CONCEPT_RELATIONSHIP",
+      "name": "Multi-Concept Relationship Diagram",
+      "file": "multi-concept-relationship-diagram-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": false
     }
   ]
 }

@@ -3,6 +3,7 @@ PACKAGE_MANIFEST.json
 PROJECT_INSTRUCTIONS.md
 README.md
 RELEASE_NOTES_v1.3.0.md
+RELEASE_NOTES_v1.4.0.md
 VERSION
 contracts/.gitkeep
 contracts/ARTICLE_LEARNING_CONTRACT.md
@@ -45,8 +46,10 @@ patterns/comparison.md
 patterns/definition.md
 patterns/howto.md
 patterns/local_guide.md
+patterns/multi-concept-relationship-diagram-pattern.md
 patterns/review.md
 patterns/seasonal.md
+patterns/section-depth-weighting-pattern.md
 patterns/troubleshooting.md
 runtime/ARTICLE_CREATION_RUNTIME.md
 runtime/ARTICLE_LEARNING_RUNTIME.md

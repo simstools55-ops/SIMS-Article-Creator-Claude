@@ -1,4 +1,4 @@
-# Pattern Library Index v1.1
+# Pattern Library Index v1.2
 
 Patternは記事の書式テンプレートではなく、検索意図に応じた設計・品質判定ルールである。
 
@@ -18,3 +18,7 @@ Patternは記事の書式テンプレートではなく、検索意図に応じ�
 - `REVIEW` — Review
 - `LOCAL_GUIDE` — Local Guide
 - `SEASONAL` — Seasonal / Freshness
+
+## 補助Pattern
+- `SECTION_DEPTH_WEIGHTING` — 見出し重要度に応じた解説量制御
+- `MULTI_CONCEPT_RELATIONSHIP` — 3つ以上の関連概念を比較表・関係図で整理
