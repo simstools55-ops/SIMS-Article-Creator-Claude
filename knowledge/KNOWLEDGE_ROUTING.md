@@ -7,3 +7,5 @@
 5. 適用したKnowledge IDを内部監査情報として保持する。
 
 - `UAT_QUALITY_ENHANCEMENT_KNOWLEDGE.md`: 実記事UAT由来のHidden Anxiety、Intent Gap、Selection Guidance、Evidence Transparency、HTML出力規則。
+
+- AI Overview / Featured Snippet / citation candidate設計時は `AI_OVERVIEW_STRUCTURE_KNOWLEDGE.md` を読み込む。

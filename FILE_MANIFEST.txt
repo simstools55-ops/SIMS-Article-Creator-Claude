@@ -4,6 +4,7 @@ PROJECT_INSTRUCTIONS.md
 README.md
 RELEASE_NOTES_v1.3.0.md
 RELEASE_NOTES_v1.4.0.md
+RELEASE_NOTES_v1.5.0.md
 VERSION
 contracts/.gitkeep
 contracts/ARTICLE_LEARNING_CONTRACT.md
@@ -14,6 +15,7 @@ contracts/schemas/article-creator-output.schema.json
 contracts/warning-codes/WARNING_CODES.md
 knowledge/.gitkeep
 knowledge/AFFILIATE_ARTICLE_KNOWLEDGE.md
+knowledge/AI_OVERVIEW_STRUCTURE_KNOWLEDGE.md
 knowledge/BLOG_PROFILE_AND_AUTHOR_VOICE.md
 knowledge/COVERAGE_AND_COMPLETENESS_KNOWLEDGE.md
 knowledge/EDITORIAL_QUALITY_RULES.md
@@ -42,7 +44,9 @@ patterns/PATTERN_INDEX.md
 patterns/PATTERN_MANIFEST.json
 patterns/PATTERN_ROUTING.md
 patterns/buying_guide.md
+patterns/citation-candidate-pattern.md
 patterns/comparison.md
+patterns/copy-template-pattern.md
 patterns/definition.md
 patterns/howto.md
 patterns/local_guide.md

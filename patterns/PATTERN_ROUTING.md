@@ -20,3 +20,6 @@
 - 「おすすめ」が含まれても購入意図が弱ければBUYING_GUIDEをPrimaryにしない。
 - 「できない」「エラー」はTROUBLESHOOTINGを優先する。
 - 年号だけを理由にSEASONALをPrimaryにせず、鮮度依存が中心の場合のみ採用する。
+
+- 再利用可能な入力物が中心価値なら COPY_TEMPLATE を補助適用する。
+- R16.5では CITATION_CANDIDATE を補助適用する。

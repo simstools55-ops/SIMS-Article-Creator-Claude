@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_LEARNING_RECORD_V1",
-  "record_version": "1.1.0",
+  "record_version": "1.2.0",
   "record_status": "PROVISIONAL",
   "record_id": "",
   "execution_id": "",
@@ -18,7 +18,8 @@
     "overall_score": 0,
     "warnings": [],
     "successful_elements": [],
-    "suspected_defects": []
+    "suspected_defects": [],
+    "predicted_citation_sections": []
   },
   "human_review": {
     "publish_ready": null,
@@ -34,7 +35,8 @@
       "monetization_quality": null,
       "publish_workability": null
     },
-    "reviewer_notes": ""
+    "reviewer_notes": "",
+    "citation_observations": []
   },
   "diagnosis": {
     "confirmed_defects": [],

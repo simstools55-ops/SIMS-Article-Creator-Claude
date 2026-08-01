@@ -23,3 +23,8 @@
 - Added Evidence/Freshness/Promise/Numeric/Concept/FAQ/Internal-Link/Output-Sync checks.
 - Added HOWTO-011 and enhanced Learning classification.
 - Integrated Shared Editorial Knowledge v2.5.0 snapshot.
+
+## [1.5.0] - 2026-08-01
+- Section Priority EngineをCoverage MapとOutlineへ統合。
+- AI citation candidate自己診断、Copy Template、AI Overview Knowledgeを追加。
+- Output schema、Quality Report、Learning Recordを拡張。

@@ -74,3 +74,6 @@
 7. 記事本文、認証情報、個人情報、完全なアフィリエイトURLを保存しない。
 8. asset_rankingは根拠件数、公開阻害度、回帰リスクを併記する。
 9. Release Recommendationは基準値と根拠を必ず出力する。
+
+## v1.5.0 citation prediction fields
+Learning records may store predicted citation sections and later human observations. Absence of observable SERP adoption must remain null and must not be inferred.

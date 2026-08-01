@@ -1,4 +1,4 @@
-# Article Learning Runtime v1.1
+# Article Learning Runtime v1.2
 
 ## Purpose
 実記事UATを記事単位で構造化し、10件ごとに再発問題、成功パターン、改善対象資産、リリース可否を監査可能な形で集計する。
@@ -61,3 +61,15 @@ CONFIRMED 10件のみを正式集計する。
 - SHARED_IMPROVEMENT: Writer/Creator共通で価値がある改善候補。
 
 新規Pattern候補の前に既存ルールとの重複を確認し、canonical_ruleを記録する。Evidence mismatch、freshness、promise、numeric mismatch、concept confusion、output syncをroot cause候補として区別する。
+
+## v1.5.0 Citation Prediction Learning
+R16.5で予測した引用候補を記事単位で保存し、実記事検証時に品質を評価できるようにする。
+
+記録対象:
+- `AI_OVERVIEW`
+- `FEATURED_SNIPPET`
+- `FAQ`
+- `COMPARISON_TABLE`
+- `HOWTO_STEPS`
+
+各候補はsection、candidate_type、confidence、selection_reasonを保持する。検索結果への実際の採用を確認できない場合は、採用実績を推測せず`observed_result=null`とする。

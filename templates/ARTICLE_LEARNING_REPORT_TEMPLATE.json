@@ -32,5 +32,9 @@
     "passed_criteria": [],
     "failed_criteria": [],
     "rationale": ""
+  },
+  "citation_prediction_summary": {
+    "candidate_count": 0,
+    "observed_results": []
   }
 }

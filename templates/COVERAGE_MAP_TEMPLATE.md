@@ -1,4 +1,4 @@
 # Coverage Map
 
-| Topic | Class | Reader need | Evidence class | Planned section | Rationale |
-|---|---|---|---|---|---|
+| Topic | Priority | Class | Reader need | Evidence class | Planned section | Rationale |
+|---|---|---|---|---|---|---|

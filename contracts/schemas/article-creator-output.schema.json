@@ -19,6 +19,7 @@
     "monetization",
     "evidence",
     "quality",
+    "citation_candidates",
     "publication_gate",
     "warnings",
     "missing_information",
@@ -248,7 +249,8 @@
         "required": [
           "level",
           "heading",
-          "purpose"
+          "purpose",
+          "priority"
         ],
         "additionalProperties": false,
         "properties": {
@@ -264,6 +266,14 @@
           },
           "purpose": {
             "type": "string"
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "★★★★★",
+              "★★★★☆",
+              "★★★☆☆"
+            ]
           }
         }
       }
@@ -347,7 +357,9 @@
           "target",
           "anchor_text",
           "placement",
-          "status"
+          "status",
+          "priority",
+          "reason"
         ],
         "additionalProperties": false,
         "properties": {
@@ -364,9 +376,20 @@
             "type": "string",
             "enum": [
               "CONFIRMED",
-              "CANDIDATE",
+              "CANDIDATE_TOPIC",
               "UNAVAILABLE"
             ]
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          },
+          "reason": {
+            "type": "string"
           }
         }
       }
@@ -507,7 +530,8 @@
         "eeat",
         "consistency",
         "fact_check",
-        "overall_score"
+        "overall_score",
+        "serp_self_review"
       ],
       "additionalProperties": false,
       "properties": {
@@ -545,6 +569,128 @@
           "type": "integer",
           "minimum": 0,
           "maximum": 100
+        },
+        "serp_self_review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "search_intent",
+            "ctr_competitiveness",
+            "title_competitiveness",
+            "h2_competitiveness",
+            "featured_snippet_readiness",
+            "ai_overview_readiness"
+          ],
+          "properties": {
+            "search_intent": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            },
+            "ctr_competitiveness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            },
+            "title_competitiveness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            },
+            "h2_competitiveness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            },
+            "featured_snippet_readiness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            },
+            "ai_overview_readiness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "properties": {
+                "rating": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -740,6 +886,57 @@
         },
         "pr_disclosure_inserted": {
           "type": "boolean"
+        }
+      }
+    },
+    "citation_candidates": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section",
+          "candidate_type",
+          "candidate_summary",
+          "confidence",
+          "selection_reason",
+          "evidence_refs"
+        ],
+        "properties": {
+          "section": {
+            "type": "string"
+          },
+          "candidate_type": {
+            "type": "string",
+            "enum": [
+              "AI_OVERVIEW",
+              "FEATURED_SNIPPET",
+              "FAQ",
+              "COMPARISON_TABLE",
+              "HOWTO_STEPS"
+            ]
+          },
+          "candidate_summary": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          },
+          "selection_reason": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       }
     }

@@ -21,3 +21,15 @@
   - 検索意図、役割分担、カニバリ、挿入文脈を確認してから公開用リンクへ格上げする。
 
 候補が3件未満しか妥当でない場合は、無関係な候補で数を埋めず、理由を記録する。
+
+## Candidate detail requirements v1.5.0
+内部リンク候補は、URLの有無にかかわらず次を保持する。
+
+- `target`: 実在URLまたはテーマ候補
+- `anchor_text`: 推奨アンカーテキスト
+- `placement`: 推奨挿入位置
+- `priority`: HIGH / MEDIUM / LOW
+- `status`: CONFIRMED / CANDIDATE_TOPIC / UNAVAILABLE
+- `reason`: 読者の次の疑問、役割分離、検索意図との接続理由
+
+`CANDIDATE_TOPIC`は実在URLや記事タイトルを断定しない。公開本文へ表示する場合は「関連記事候補」など明確な非リンク表現にし、完成リンクとして扱わない。
