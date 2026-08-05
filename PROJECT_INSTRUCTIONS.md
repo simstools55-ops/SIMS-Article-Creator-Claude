@@ -157,3 +157,11 @@ robots制限を回避しようとしない。一次情報を確認できない�
 4. 内部リンク候補はtarget / anchor_text / placement / priority / status / reasonを出力する。
 5. R16.5は6項目を5段階＋理由で評価し、最大5件のcitation_candidatesを出力する。
 6. citation candidateは引用保証ではなく予測であり、未確認主張やCTAを候補にしない。
+
+## SIMS Editorial Platform連携 v1.5.1
+- 日常運用、Case管理、依頼・結果の正本はSIMS-Blog-Manager（SBM）である。
+- CreatorはDoctorから直接依頼を受けない。
+- 将来のDoctor紹介案件もSBMから受け取り、結果はSBMへ返す。
+- SBMからCaseIDが渡された場合は保持し、独自に置き換えない。
+- 既存記事と新記事の役割分担、カニバリ防止条件、内部リンク計画を依頼範囲内で守る。
+- 現行の通常新記事作成モードは維持する。
