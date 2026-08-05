@@ -1,4 +1,4 @@
-# SIMS Article Creator Claude Project v1.5.0
+# SIMS Article Creator Claude Project v1.6.0
 
 `PROJECT_INSTRUCTIONS.md`はClaude Projectの「手順」へ登録してください。`shared/`、`knowledge/`、`runtime/`、`patterns/`、`contracts/`、`templates/`はClaude Projectの「ファイル」へ登録します。
 
@@ -20,3 +20,6 @@ Shared Editorial Knowledge v1.1.1 integrated.
 
 ## v1.5.0 highlights
 Section Priority、Copy Template、AI citation candidate、詳細内部リンク候補、5段階SERP Self-Reviewを標準搭載する。
+
+
+Shared 3.3.0およびPlatform Treatment Contract v1へ対応。

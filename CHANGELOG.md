@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0] - 2026-08-05
+- Added Platform Creator Treatment Request/Result support.
+- Synced Shared 3.3.0 product-scoped snapshot.
+- Added package identity, file list and removed-file guidance.
+- Preserved legacy article creation output.
+
+
 ## 1.4.0 - 2026-08-01
 - Added section-depth weighting based on search-intent importance.
 - Added multi-concept relationship diagram pattern.

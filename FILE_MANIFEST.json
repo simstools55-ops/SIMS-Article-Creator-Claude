@@ -1,510 +1,241 @@
 {
-  "package": "SIMS-Article-Creator-Claude-v1.5.1",
+  "version": "1.6.0",
   "files": [
-    {
-      "path": "CHANGELOG.md",
-      "bytes": 1244,
-      "sha256": "40ed43ab148a43099aac9778ab582265825db6296b92235c41f9fca34cc83a1d"
-    },
-    {
-      "path": "FILE_MANIFEST.txt",
-      "bytes": 8246,
-      "sha256": "cb3d97d52fb1703403c9a1401f5e50bdae88d764c5d63c636350f3b3fea03c60"
-    },
-    {
-      "path": "PACKAGE_MANIFEST.json",
-      "bytes": 9666,
-      "sha256": "a608d67bd521e728fc97ce8c24b5e875ce38c5cf85669f09e1dd7806a7b7a17c"
-    },
-    {
-      "path": "PROJECT_INSTRUCTIONS.md",
-      "bytes": 13077,
-      "sha256": "02b2237cdd861261fcea213296ee89accede2d751b872cf050d8008dea0f02a5"
-    },
-    {
-      "path": "README.md",
-      "bytes": 1120,
-      "sha256": "9fc1bb3cf9ccbb6a8b374a1370552560151541f74d70bc5c0437bc1adac6fb91"
-    },
-    {
-      "path": "RELEASE_NOTES_v1.3.0.md",
-      "bytes": 415,
-      "sha256": "ac452c9899e69d8bb25beb396b33f2380607842d2fd0fc2c2ff94dd6266d545d"
-    },
-    {
-      "path": "RELEASE_NOTES_v1.4.0.md",
-      "bytes": 909,
-      "sha256": "337403c1831ab15ac68bdfc9ba9b968eccd06b8b0f2ab3fb9a6712473b85e0ed"
-    },
-    {
-      "path": "RELEASE_NOTES_v1.5.0.md",
-      "bytes": 508,
-      "sha256": "cdf9ff6817e21e444b32ed807a4054eaf44e5083617e7f8eab9156769263f0e1"
-    },
-    {
-      "path": "SETUP_GUIDE_v1.5.1.md",
-      "bytes": 568,
-      "sha256": "5d6b4a9c328cb20f52b7a5277ec6aecde4edb240e08d344c6c14defc9956d60d"
-    },
-    {
-      "path": "SHA256SUMS.txt",
-      "bytes": 21512,
-      "sha256": "70d131019bfd9e0713d2b760a04aa7f7e9da870a4c356e1c19fde870bb2cd98b"
-    },
-    {
-      "path": "VERSION",
-      "bytes": 6,
-      "sha256": "dfe7d71b3f428eb73ed853f8fded65e2986896e21d69f45ebf06bb623b450e14"
-    },
-    {
-      "path": "contracts/.gitkeep",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "contracts/ARTICLE_LEARNING_CONTRACT.md",
-      "bytes": 3188,
-      "sha256": "d25e3b3045be50a17d91c88d9022b538a7514871e84bb8e7765686fc7db839bf"
-    },
-    {
-      "path": "contracts/SIMS_ARTICLE_CREATOR_CONTRACT.md",
-      "bytes": 1435,
-      "sha256": "c641dd1a8cc8fb9f9a11b97711344bc1496d0e9a74dc06e6cdf3a0bac5e2087f"
-    },
-    {
-      "path": "contracts/reason-codes/REASON_CODES.md",
-      "bytes": 1356,
-      "sha256": "825e5201d820f5b5682602856b784607c434e4ed65c4efcb5fb9ea957b518dc4"
-    },
-    {
-      "path": "contracts/schemas/article-creator-input.schema.json",
-      "bytes": 7368,
-      "sha256": "3222e47173187954e98d349e04205844b6acd8bc043b7844233e762c6f10e64e"
-    },
-    {
-      "path": "contracts/schemas/article-creator-output.schema.json",
-      "bytes": 21227,
-      "sha256": "62ebbc3413a91ecd486230d18d35a9cb7d7fc822caf2159f45d4724e8b2237fb"
-    },
-    {
-      "path": "contracts/warning-codes/WARNING_CODES.md",
-      "bytes": 795,
-      "sha256": "d9db73f51020ea00f482e8021d81c855ba86847cad521a464c19fb0a87311dd2"
-    },
-    {
-      "path": "knowledge/.gitkeep",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "knowledge/AFFILIATE_ARTICLE_KNOWLEDGE.md",
-      "bytes": 2974,
-      "sha256": "5ba1208eeb1643156de7bbd97298b38b42c5767b9f9c61daeb291e0c41db124b"
-    },
-    {
-      "path": "knowledge/AI_OVERVIEW_STRUCTURE_KNOWLEDGE.md",
-      "bytes": 1192,
-      "sha256": "09a1285bf026cfcd81a41e58a2541de6d1da482b2288b8dddf221f6772ee4848"
-    },
-    {
-      "path": "knowledge/BLOG_PROFILE_AND_AUTHOR_VOICE.md",
-      "bytes": 1313,
-      "sha256": "cb9c4fed0be3025f727143bb65a87b7774b1708791b437c6f1edfcf6d52102c0"
-    },
-    {
-      "path": "knowledge/COVERAGE_AND_COMPLETENESS_KNOWLEDGE.md",
-      "bytes": 462,
-      "sha256": "579970d26078c3b172bf317b1d87844731927d521354a1ca6249f5198dab6a9b"
-    },
-    {
-      "path": "knowledge/EDITORIAL_QUALITY_RULES.md",
-      "bytes": 403,
-      "sha256": "06843410635307dc3ef07df62384bed3e071922f9fb62f69a8cdabb0b34aa539"
-    },
-    {
-      "path": "knowledge/EEAT_TRANSPARENCY_KNOWLEDGE.md",
-      "bytes": 407,
-      "sha256": "1d076aade2ded73c04e63fc0928843ffa2f99b8f2c883d7ada1103c9a969c3d2"
-    },
-    {
-      "path": "knowledge/EVIDENCE_AND_CLAIM_KNOWLEDGE.md",
-      "bytes": 1135,
-      "sha256": "f7b925d7ba49af3096d084d8a3e4b53f12cc6fcf90e5057c180c4788edc4b680"
-    },
-    {
-      "path": "knowledge/EVIDENCE_AND_FABRICATION_RULES.md",
-      "bytes": 423,
-      "sha256": "3876e8db5ed69d515c937e929dd1543000e56a2a57c4288bde716f472f1c7747"
-    },
-    {
-      "path": "knowledge/FRESHNESS_AND_MAINTENANCE_KNOWLEDGE.md",
-      "bytes": 1132,
-      "sha256": "8cc4d1ada037766e662f59ef26bab6e36c75cd864f4f5bf643d1778d554d64e3"
-    },
-    {
-      "path": "knowledge/HELPFUL_CONTENT_KNOWLEDGE.md",
-      "bytes": 427,
-      "sha256": "a2562cdfe6e9e994de2b9efe6d537dfb4f553759aff0b168bd188f3f7f43ddf0"
-    },
-    {
-      "path": "knowledge/INTERNAL_LINK_KNOWLEDGE.md",
-      "bytes": 2010,
-      "sha256": "8879e7f9b411480e792a7f3164a001b489f95a7d0f2000c2d64efd6d86ab0b97"
-    },
-    {
-      "path": "knowledge/KNOWLEDGE_INDEX.md",
-      "bytes": 711,
-      "sha256": "ff45851d172a2bdbc09ee192dca0d341c89b7e3118bccf01dbe80082575fa3bc"
-    },
-    {
-      "path": "knowledge/KNOWLEDGE_MANIFEST.json",
-      "bytes": 5348,
-      "sha256": "8dd1817f4ed71aba63f63ac5875d7ae555b16380f7f21cb8a2c30a79c00f015c"
-    },
-    {
-      "path": "knowledge/KNOWLEDGE_POLICY.md",
-      "bytes": 728,
-      "sha256": "9e782f0b3300220253331091624b700cfb4008bc12c8eb040fbda99a19781b93"
-    },
-    {
-      "path": "knowledge/KNOWLEDGE_PRECEDENCE.md",
-      "bytes": 621,
-      "sha256": "853f2745bea387b1d01c5fad3a5c73f2434b090bd49b15522c942330349bc3ba"
-    },
-    {
-      "path": "knowledge/KNOWLEDGE_ROUTING.md",
-      "bytes": 700,
-      "sha256": "8a2885fdd84e23f579518fd3df171067168f06d689ad559a2a1a0be72b4f0230"
-    },
-    {
-      "path": "knowledge/MONETIZATION_BALANCE_KNOWLEDGE.md",
-      "bytes": 434,
-      "sha256": "7d1e0a34c503c1fe3f8dd30f65cea2373a187f2a2f1b756e36d84075ad179a9b"
-    },
-    {
-      "path": "knowledge/ORIGINALITY_AND_DIFFERENTIATION_KNOWLEDGE.md",
-      "bytes": 400,
-      "sha256": "751d0f56103a30a2bef5950e4215b3c439d0f02873e2b47d4545d9085b8b3554"
-    },
-    {
-      "path": "knowledge/READABILITY_AND_EDITORIAL_STYLE_KNOWLEDGE.md",
-      "bytes": 467,
-      "sha256": "16daf6611c4be66b41c4d5311289d56207f8744928eeb4bfe11ff19f846b69e9"
-    },
-    {
-      "path": "knowledge/READER_MODEL_KNOWLEDGE.md",
-      "bytes": 531,
-      "sha256": "18d55336096e296e01e8aab7cd52fbffb1a0f1a3b66cd357eef54c1fb247d078"
-    },
-    {
-      "path": "knowledge/SAFETY_AND_YMYL_KNOWLEDGE.md",
-      "bytes": 1000,
-      "sha256": "c3d9913a801b60b1a83548eff4a7f1e8920c9384c304afda594ae260b1400000"
-    },
-    {
-      "path": "knowledge/SEARCH_INTENT_KNOWLEDGE.md",
-      "bytes": 790,
-      "sha256": "70c460579c5906f73d08d188d7a123750533815fcb92dd85b8f93fe1c5ae9427"
-    },
-    {
-      "path": "knowledge/SEO_FOUNDATIONS_KNOWLEDGE.md",
-      "bytes": 1573,
-      "sha256": "8b4c53eb5e05cef2095df128f5b659dc093bd1c729c7288b1a5419bb1794832b"
-    },
-    {
-      "path": "knowledge/UAT_QUALITY_ENHANCEMENT_KNOWLEDGE.md",
-      "bytes": 1988,
-      "sha256": "be5873c9ecc1512afd4a848f36766beaa058421b1d5f0abed7f81b2e9283c349"
-    },
-    {
-      "path": "patterns/.gitkeep",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "patterns/PATTERN_COMPOSER_RULES.md",
-      "bytes": 1298,
-      "sha256": "7442885d52a8ae5d319aa3452a48f001fe052c7cea8aa43097ec3811c832b9d4"
-    },
-    {
-      "path": "patterns/PATTERN_INDEX.md",
-      "bytes": 975,
-      "sha256": "3fb9c2bbc235b03c9bd67720a430c84632babf4d9612abf831977187f908cd47"
-    },
-    {
-      "path": "patterns/PATTERN_MANIFEST.json",
-      "bytes": 2455,
-      "sha256": "22e761880ac98c8d1e7511dc62455b8561964f0252e71c251f44170405afa707"
-    },
-    {
-      "path": "patterns/PATTERN_ROUTING.md",
-      "bytes": 1062,
-      "sha256": "8288d1b20230431e1f82484290e26186b3ca041a59f38b99d35800012154aa49"
-    },
-    {
-      "path": "patterns/buying_guide.md",
-      "bytes": 1268,
-      "sha256": "f1abc9c19c34b74deba297daf87db9739b0426825013efd3afe1df7dc827a550"
-    },
-    {
-      "path": "patterns/citation-candidate-pattern.md",
-      "bytes": 782,
-      "sha256": "0aa6c20fc058a9fb2932f041eebe151d4e3612fb1181fd61b22b2d87ad3e7d68"
-    },
-    {
-      "path": "patterns/comparison.md",
-      "bytes": 921,
-      "sha256": "9bd46b61dd5399090a11184b2cf2f9f6fadf58fef0e4d588d89f3d6703c834e8"
-    },
-    {
-      "path": "patterns/copy-template-pattern.md",
-      "bytes": 894,
-      "sha256": "eab66f6587119869001a20b6514a7c9cfe2508f7140ff62dfca6740581125837"
-    },
-    {
-      "path": "patterns/definition.md",
-      "bytes": 897,
-      "sha256": "86d5a98860937500cef78c57a8b4968e88d68c2f536d3865c802188a40218b9c"
-    },
-    {
-      "path": "patterns/howto.md",
-      "bytes": 1282,
-      "sha256": "9faa0ba20e1217b5639a81a489c31ef93be10a5c637baad9d990c2cfa6392d80"
-    },
-    {
-      "path": "patterns/local_guide.md",
-      "bytes": 1667,
-      "sha256": "58b4e559937c63ef2f66eb350b1df3fcf7d7aa820ef3024a4d7d413c17022a92"
-    },
-    {
-      "path": "patterns/multi-concept-relationship-diagram-pattern.md",
-      "bytes": 1290,
-      "sha256": "e3f731ec329ac6906ab2f0efe791b44a6a8eb205c1a03670707b83da665b77e6"
-    },
-    {
-      "path": "patterns/review.md",
-      "bytes": 1727,
-      "sha256": "9c3aef44d02906303076351ba9bc280b50c7f4624a80f49b37b72968c7b8f9e7"
-    },
-    {
-      "path": "patterns/seasonal.md",
-      "bytes": 925,
-      "sha256": "ab00bd4145273ece4494cbd17b4abb9142ba978159a1f86bf90d2fb49513451d"
-    },
-    {
-      "path": "patterns/section-depth-weighting-pattern.md",
-      "bytes": 2055,
-      "sha256": "4f7044b28e10d9fa4e56b761d2e84c945789d8ff630eb887546a96ea552ce556"
-    },
-    {
-      "path": "patterns/troubleshooting.md",
-      "bytes": 944,
-      "sha256": "e1dc852799774e2abce9116efd862be9afa92cd2f40465caa7cdbb7d5f65d148"
-    },
-    {
-      "path": "runtime/ARTICLE_CREATION_RUNTIME.md",
-      "bytes": 4599,
-      "sha256": "eebeaa50aec726dd02117659e6db4a7875213233f62e77cbf072619f59bcd245"
-    },
-    {
-      "path": "runtime/ARTICLE_LEARNING_RUNTIME.md",
-      "bytes": 3879,
-      "sha256": "d6e0efa86a7c0fae65ccf9a329139d0e83fd5e61c918bcdc68e102e6c90fd198"
-    },
-    {
-      "path": "runtime/EDITORIAL_CORE_RUNTIME.md",
-      "bytes": 984,
-      "sha256": "ee094b080fe4d47127672cc67d80e9d7f13355d280e9da215f9503a698dc305f"
-    },
-    {
-      "path": "runtime/EDITORIAL_VOICE_RUNTIME.md",
-      "bytes": 1352,
-      "sha256": "4ba41f0ce4c7120430f665a67a908371b3e6cbe568feb2d1415a1f90e359907c"
-    },
-    {
-      "path": "runtime/KNOWLEDGE_LOAD_RUNTIME.md",
-      "bytes": 2740,
-      "sha256": "895050551c0b64e4b3c0dc2186c288df837d9b8d8ac3c3ef52d68485bbd7b1e0"
-    },
-    {
-      "path": "runtime/MONETIZATION_ROUTER_RUNTIME.md",
-      "bytes": 673,
-      "sha256": "4602c976999a6b1e36c63b6ae68a153e2049f5cb06917e60271eb522079834c3"
-    },
-    {
-      "path": "runtime/PATTERN_COMPOSER_RUNTIME.md",
-      "bytes": 705,
-      "sha256": "2ff174e87c8c8ca9cd7228015376225f498ac81add90cd1486230bb005a04a2d"
-    },
-    {
-      "path": "runtime/PUBLISH_MODE_RUNTIME.md",
-      "bytes": 2072,
-      "sha256": "55090a15cae4bc3bcf2af20582acfbee6da45666b5de26f659dc246c13fd19f7"
-    },
-    {
-      "path": "runtime/QUALITY_GATE_RUNTIME.md",
-      "bytes": 3827,
-      "sha256": "43367bccfa3ffc054680b60d7f7035f0f8fbeac9148e30a5f41025ad47cd012c"
-    },
-    {
-      "path": "runtime/RUNTIME_CONTROL.md",
-      "bytes": 700,
-      "sha256": "db4049b2f9128cc36d1dd63f94fe90e3858af819653f3705d8f5fb21e27bca17"
-    },
-    {
-      "path": "runtime/SHARED_KNOWLEDGE_RUNTIME.md",
-      "bytes": 3224,
-      "sha256": "13ea1016a3aad67ec730e8fad068dde256be81353d3237658c6f7dd9d94f8779"
-    },
-    {
-      "path": "shared/Article-Creator-Application-Mapping.md",
-      "bytes": 1802,
-      "sha256": "d2fff5ea014d28b84cb784fb0f2bb71427d92412fb6f9fe9dfaf49e0409ba73b"
-    },
-    {
-      "path": "shared/CASE_LIFECYCLE_V1.md",
-      "bytes": 1798,
-      "sha256": "be09bfb476247a2c4fbf703d687eec3a74fa25e24477aefcb308689cfe0e968f"
-    },
-    {
-      "path": "shared/CHANGELOG.md",
-      "bytes": 7726,
-      "sha256": "40f5cc160dd88725143ba12281dbeeec765721e5950b97ad47ab718664e1e172"
-    },
-    {
-      "path": "shared/Decision-Support.md",
-      "bytes": 317,
-      "sha256": "7447194b8a903369b59677702ddc97a805a30efaa8f2d83a0c2d7753c870de7f"
-    },
-    {
-      "path": "shared/Evidence-Transparency.md",
-      "bytes": 363,
-      "sha256": "f047a073ee9a87c770fd5c148f40378538d8b3ef13b746d069768e360246c3b9"
-    },
-    {
-      "path": "shared/Hidden-Anxiety.md",
-      "bytes": 398,
-      "sha256": "d03c6f03c10734c43ad85940dead9f8e991520b6c8414ab5822215b72225442b"
-    },
-    {
-      "path": "shared/INTERFACE_CONTRACTS_V2.md",
-      "bytes": 3636,
-      "sha256": "c1874509f12c3939ab3dd1fccb76acc0bc0a0ae7dc5018772d0e1aad61580341"
-    },
-    {
-      "path": "shared/Intent-Analysis.md",
-      "bytes": 419,
-      "sha256": "283d2e7f436e32f7b3b9c9bbfb044dc6325cfe102f611eaa53a72cdfac525cb7"
-    },
-    {
-      "path": "shared/Internal-Link-Semantics.md",
-      "bytes": 330,
-      "sha256": "08a023c7080e5598e74e8b861e49e7d40d75dc2976f21e7fa9b49c90c60c7fb1"
-    },
-    {
-      "path": "shared/LICENSE",
-      "bytes": 158,
-      "sha256": "ce0c69a4019923878282e03bb1ce789260e592199a0fbbab67e77fefe0e97664"
-    },
-    {
-      "path": "shared/PLATFORM_INTEGRATION_POLICY.md",
-      "bytes": 1507,
-      "sha256": "0a08c3567af7503f8266933314c218a7e3202d75691d5ce43c13fbd3bf353dbc"
-    },
-    {
-      "path": "shared/README.md",
-      "bytes": 2786,
-      "sha256": "a2a0ae3731b1c460df72288a6e485f55fbe3bfc4ca7023a9b39a54634c243cda"
-    },
-    {
-      "path": "shared/SERP-Entity-Preservation.md",
-      "bytes": 393,
-      "sha256": "1d3987667305271f984c16eaa3a31b469335ce3b93bb8357af5a634653ebb85d"
-    },
-    {
-      "path": "shared/SNAPSHOT_MANIFEST.json",
-      "bytes": 18207,
-      "sha256": "878089a06ef16edb6d4b6f7e78e6d609c01165834902e29ca6d95b3f00f31cdc"
-    },
-    {
-      "path": "shared/SNAPSHOT_SCOPE.json",
-      "bytes": 177,
-      "sha256": "95e2270b5f69191dd09174786cfa07003886de368c0705f06fb4169f433d28eb"
-    },
-    {
-      "path": "shared/SOURCE.md",
-      "bytes": 102,
-      "sha256": "4a303a27740812dc3061907649bbbdbfbdb22153e332f94f6eca7a6c313eb873"
-    },
-    {
-      "path": "shared/VERSION",
-      "bytes": 6,
-      "sha256": "33bdaf9e2d6bcbde2e4e613e865e403f8fe21fc621078d34c30b0bdc7f68d903"
-    },
-    {
-      "path": "templates/AFFILIATE_INPUT_TEMPLATE.md",
-      "bytes": 279,
-      "sha256": "7c7d43a6b49efdcedbf81786e1c9b09b4aad297a871d19c8de111ae8859bf68a"
-    },
-    {
-      "path": "templates/ARTICLE_LEARNING_RECORD_TEMPLATE.json",
-      "bytes": 1143,
-      "sha256": "23f98a548f33f48b5312830f5e40da1af7efbd7928ba9671c73106694ce5ecfe"
-    },
-    {
-      "path": "templates/ARTICLE_LEARNING_REPORT_TEMPLATE.json",
-      "bytes": 1020,
-      "sha256": "ce9b4f2253834d548b2cf459242b38f48ac79d5035f8743efa14209459592305"
-    },
-    {
-      "path": "templates/ARTICLE_OUTPUT_TEMPLATE.md",
-      "bytes": 1069,
-      "sha256": "976171a5e31b08f095a4bbb68171861c7a41b180e5723c9d68791095cd77dbb6"
-    },
-    {
-      "path": "templates/AUTHOR_PROFILE_TEMPLATE.md",
-      "bytes": 246,
-      "sha256": "e3b6fda807fca4627695b890085e07b18a26b712ee9173069284fff908d76a49"
-    },
-    {
-      "path": "templates/BLOG_PROFILE_TEMPLATE.md",
-      "bytes": 270,
-      "sha256": "18888a0c20b3fe3998be380e5907e4f66ee603580dbc6ec069183a40783b5ca1"
-    },
-    {
-      "path": "templates/COVERAGE_MAP_TEMPLATE.md",
-      "bytes": 136,
-      "sha256": "f26f473002ff858c722eda5fef50147127bd9f4035607f2d08e83906bdedeb84"
-    },
-    {
-      "path": "templates/EDITORIAL_BRIEF_TEMPLATE.md",
-      "bytes": 386,
-      "sha256": "d3ca32e2916b4d2ef48e68b7e65fe840326761152e97f9be5ccac5ef9f73df82"
-    },
-    {
-      "path": "templates/ENGINE_OUTPUT_TEMPLATE.md",
-      "bytes": 287,
-      "sha256": "65292125c3dbb1fcf3dcc28223a34105d25513f8ea58c0f52272c4475dcf4992"
-    },
-    {
-      "path": "templates/EVIDENCE_PLAN_TEMPLATE.md",
-      "bytes": 114,
-      "sha256": "40ee560742bd489d841a1a32f81c26feedd8ea070c607097794e7ebbde6e7695"
-    },
-    {
-      "path": "templates/QUALITY_REPORT_TEMPLATE.md",
-      "bytes": 592,
-      "sha256": "e64706a4d91e71492394d313061db7f4f911f41f0b137facda4c2381b74931ed"
-    },
-    {
-      "path": "templates/READER_JOURNEY_TEMPLATE.md",
-      "bytes": 185,
-      "sha256": "8d6e9cb834aebf1123f756a07839c547f77439f1bb3dac41ec64dd6d98b24052"
-    },
-    {
-      "path": "templates/UAT_HUMAN_FEEDBACK_TEMPLATE.md",
-      "bytes": 393,
-      "sha256": "89cc8dffb0a877e92af63cc015bca41fd157a6baab970cb235433b2f5867539e"
-    }
+    "CHANGELOG.md",
+    "CLAUDE_PACKAGE_MANIFEST.json",
+    "CLAUDE_PROJECT_INSTRUCTIONS.md",
+    "FILE_MANIFEST.json",
+    "FILE_MANIFEST.txt",
+    "PACKAGE_MANIFEST.json",
+    "PRODUCT_IDENTITY.json",
+    "PROJECT_INSTRUCTIONS.md",
+    "README.md",
+    "RELEASE_NOTES_v1.3.0.md",
+    "RELEASE_NOTES_v1.4.0.md",
+    "RELEASE_NOTES_v1.5.0.md",
+    "SETUP_GUIDE_v1.5.1.md",
+    "SHA256SUMS.txt",
+    "SHARED_VERSION",
+    "VERSION",
+    "claude-project/FILE_LIST.md",
+    "claude-project/INSTALLATION_GUIDE.md",
+    "claude-project/REMOVED_FILES.md",
+    "contracts/.gitkeep",
+    "contracts/ARTICLE_LEARNING_CONTRACT.md",
+    "contracts/SIMS_ARTICLE_CREATOR_CONTRACT.md",
+    "contracts/platform/common-envelope-v1.schema.json",
+    "contracts/platform/creator-treatment-request-v1.schema.json",
+    "contracts/platform/creator-treatment-result-v1.schema.json",
+    "contracts/platform/platform-error-v1.schema.json",
+    "contracts/platform/publication-result-v1.schema.json",
+    "contracts/reason-codes/REASON_CODES.md",
+    "contracts/schemas/article-creator-input.schema.json",
+    "contracts/schemas/article-creator-output.schema.json",
+    "contracts/warning-codes/WARNING_CODES.md",
+    "knowledge/.gitkeep",
+    "knowledge/AFFILIATE_ARTICLE_KNOWLEDGE.md",
+    "knowledge/AI_OVERVIEW_STRUCTURE_KNOWLEDGE.md",
+    "knowledge/BLOG_PROFILE_AND_AUTHOR_VOICE.md",
+    "knowledge/COVERAGE_AND_COMPLETENESS_KNOWLEDGE.md",
+    "knowledge/EDITORIAL_QUALITY_RULES.md",
+    "knowledge/EEAT_TRANSPARENCY_KNOWLEDGE.md",
+    "knowledge/EVIDENCE_AND_CLAIM_KNOWLEDGE.md",
+    "knowledge/EVIDENCE_AND_FABRICATION_RULES.md",
+    "knowledge/FRESHNESS_AND_MAINTENANCE_KNOWLEDGE.md",
+    "knowledge/HELPFUL_CONTENT_KNOWLEDGE.md",
+    "knowledge/INTERNAL_LINK_KNOWLEDGE.md",
+    "knowledge/KNOWLEDGE_INDEX.md",
+    "knowledge/KNOWLEDGE_MANIFEST.json",
+    "knowledge/KNOWLEDGE_POLICY.md",
+    "knowledge/KNOWLEDGE_PRECEDENCE.md",
+    "knowledge/KNOWLEDGE_ROUTING.md",
+    "knowledge/MONETIZATION_BALANCE_KNOWLEDGE.md",
+    "knowledge/ORIGINALITY_AND_DIFFERENTIATION_KNOWLEDGE.md",
+    "knowledge/READABILITY_AND_EDITORIAL_STYLE_KNOWLEDGE.md",
+    "knowledge/READER_MODEL_KNOWLEDGE.md",
+    "knowledge/SAFETY_AND_YMYL_KNOWLEDGE.md",
+    "knowledge/SEARCH_INTENT_KNOWLEDGE.md",
+    "knowledge/SEO_FOUNDATIONS_KNOWLEDGE.md",
+    "knowledge/UAT_QUALITY_ENHANCEMENT_KNOWLEDGE.md",
+    "patterns/.gitkeep",
+    "patterns/PATTERN_COMPOSER_RULES.md",
+    "patterns/PATTERN_INDEX.md",
+    "patterns/PATTERN_MANIFEST.json",
+    "patterns/PATTERN_ROUTING.md",
+    "patterns/buying_guide.md",
+    "patterns/citation-candidate-pattern.md",
+    "patterns/comparison.md",
+    "patterns/copy-template-pattern.md",
+    "patterns/definition.md",
+    "patterns/howto.md",
+    "patterns/local_guide.md",
+    "patterns/multi-concept-relationship-diagram-pattern.md",
+    "patterns/review.md",
+    "patterns/seasonal.md",
+    "patterns/section-depth-weighting-pattern.md",
+    "patterns/troubleshooting.md",
+    "runtime/ARTICLE_CREATION_RUNTIME.md",
+    "runtime/ARTICLE_LEARNING_RUNTIME.md",
+    "runtime/EDITORIAL_CORE_RUNTIME.md",
+    "runtime/EDITORIAL_VOICE_RUNTIME.md",
+    "runtime/KNOWLEDGE_LOAD_RUNTIME.md",
+    "runtime/MONETIZATION_ROUTER_RUNTIME.md",
+    "runtime/PATTERN_COMPOSER_RUNTIME.md",
+    "runtime/PLATFORM_TREATMENT_RUNTIME.md",
+    "runtime/PUBLISH_MODE_RUNTIME.md",
+    "runtime/QUALITY_GATE_RUNTIME.md",
+    "runtime/RUNTIME_CONTROL.md",
+    "runtime/SHARED_KNOWLEDGE_RUNTIME.md",
+    "shared/Article-Creator-Application-Mapping.md",
+    "shared/CASE_LIFECYCLE_V1.md",
+    "shared/CHANGELOG.md",
+    "shared/Decision-Support.md",
+    "shared/Evidence-Transparency.md",
+    "shared/Hidden-Anxiety.md",
+    "shared/INTERFACE_CONTRACTS_V2.md",
+    "shared/Intent-Analysis.md",
+    "shared/Internal-Link-Semantics.md",
+    "shared/LICENSE",
+    "shared/PLATFORM_INTEGRATION_POLICY.md",
+    "shared/README.md",
+    "shared/SERP-Entity-Preservation.md",
+    "shared/SNAPSHOT_MANIFEST.json",
+    "shared/SNAPSHOT_SCOPE.json",
+    "shared/SOURCE.md",
+    "shared/VERSION",
+    "shared/docs/integration-policy.md",
+    "shared/docs/product-scoped-snapshot-policy.md",
+    "shared/docs/scope.md",
+    "shared/evidence/publication-boundary.md",
+    "shared/evidence/search-demand-evidence-boundary.md",
+    "shared/evidence/source-confidence-freshness.md",
+    "shared/knowledge/affiliate-cta-boundary.md",
+    "shared/knowledge/buyer-trust-and-freshness.md",
+    "shared/knowledge/causal-expression-safety.md",
+    "shared/knowledge/central-claim-evidence-priority.md",
+    "shared/knowledge/conditional-editorial-opinion.md",
+    "shared/knowledge/decision-support.md",
+    "shared/knowledge/editorial-decision-and-visibility.md",
+    "shared/knowledge/entity-alias-and-taxonomy-freshness.md",
+    "shared/knowledge/evidence-boundary.md",
+    "shared/knowledge/evidence-strength-wording.md",
+    "shared/knowledge/evidence-transparency.md",
+    "shared/knowledge/existing-content-reflection.md",
+    "shared/knowledge/faq-evolution.md",
+    "shared/knowledge/faq-publication-consistency.md",
+    "shared/knowledge/faq-reconstruction.md",
+    "shared/knowledge/food-safety-conditional-claims.md",
+    "shared/knowledge/freshness-safety.md",
+    "shared/knowledge/graceful-degradation.md",
+    "shared/knowledge/hidden-anxiety.md",
+    "shared/knowledge/html-entity-integrity.md",
+    "shared/knowledge/integrated-serp-query-evidence.md",
+    "shared/knowledge/intent-analysis.md",
+    "shared/knowledge/internal-link-destination-validation.md",
+    "shared/knowledge/internal-link-integrity.md",
+    "shared/knowledge/internal-link-semantics.md",
+    "shared/knowledge/logical-consistency.md",
+    "shared/knowledge/natural-japanese-and-similarity-reporting.md",
+    "shared/knowledge/natural-japanese-publication-flags-terminology.md",
+    "shared/knowledge/numeric-consistency.md",
+    "shared/knowledge/progressive-editing.md",
+    "shared/knowledge/publication-integrity-and-dynamic-information.md",
+    "shared/knowledge/publication-pipeline-integrity.md",
+    "shared/knowledge/publication-qa-evaluation-standard.md",
+    "shared/knowledge/publication-qa-principles.md",
+    "shared/knowledge/query-data-analysis.md",
+    "shared/knowledge/scope-device-link-release-safety.md",
+    "shared/knowledge/semantic-expectation-ymyl-safety.md",
+    "shared/knowledge/serp-entity-preservation.md",
+    "shared/knowledge/serp-first-editorial-planning.md",
+    "shared/knowledge/source-scope-qualification.md",
+    "shared/knowledge/supernatural-health-causation-safety.md",
+    "shared/knowledge/title-promise-alignment.md",
+    "shared/knowledge/validation-auditability.md",
+    "shared/learning/DECISION_LOG.md",
+    "shared/learning/LEARNING_INTAKE_TEMPLATE.md",
+    "shared/learning/LEARNING_REGISTRY.json",
+    "shared/learning/LEARNING_SPRINT_PLAYBOOK.md",
+    "shared/learning/README.md",
+    "shared/mappings/article-creator/application-mapping.md",
+    "shared/patterns/answer-first-pattern.md",
+    "shared/patterns/dynamic-claim-safe-rewrite-pattern.md",
+    "shared/patterns/evidence-publication-boundary-pattern.md",
+    "shared/patterns/expectation-alignment-pattern.md",
+    "shared/patterns/faq-query-normalization-pattern.md",
+    "shared/patterns/freshness-qualification-pattern.md",
+    "shared/patterns/gap-completion-pattern.md",
+    "shared/patterns/howto-evidence-strength-heading-pattern.md",
+    "shared/patterns/internal-link-role-separation-pattern.md",
+    "shared/patterns/low-sample-title-control-pattern.md",
+    "shared/patterns/natural-japanese-pattern.md",
+    "shared/patterns/scope-alignment-pattern.md",
+    "shared/patterns/serp-gap-report-pattern.md",
+    "shared/patterns/terminology-unit-consistency-pattern.md",
+    "shared/patterns/title-semantic-alignment-pattern.md",
+    "shared/patterns/winner-query-protection-pattern.md",
+    "shared/patterns/ymyl-safety-pattern.md",
+    "shared/platform/END_TO_END_WORKFLOW.md",
+    "shared/platform/PRODUCT_RESPONSIBILITIES.md",
+    "shared/platform/README.md",
+    "shared/platform/SNAPSHOT_MANIFEST.json",
+    "shared/platform/SNAPSHOT_SCOPE.json",
+    "shared/platform/contracts/common-envelope-v1.schema.json",
+    "shared/platform/contracts/creator-treatment-request-v1.schema.json",
+    "shared/platform/contracts/creator-treatment-result-v1.schema.json",
+    "shared/platform/contracts/platform-error-v1.schema.json",
+    "shared/platform/contracts/publication-result-v1.schema.json",
+    "shared/platform/enums/case-status.json",
+    "shared/platform/enums/priority.json",
+    "shared/platform/enums/product-code.json",
+    "shared/platform/enums/result-status.json",
+    "shared/platform/enums/treatment-type.json",
+    "shared/quality/COPY_READY_OUTPUT_STANDARD_V2.md",
+    "shared/quality/EDITORIAL_QA_CONTRACT_V1.md",
+    "shared/quality/EVIDENCE_DECISION_POLICY_V2.md",
+    "shared/quality/FOUR_LAYER_ARCHITECTURE_V2.md",
+    "shared/quality/KNOWLEDGE_CONFIDENCE_FRESHNESS_V2.md",
+    "shared/quality/LEARNING_REGISTRY_POLICY.md",
+    "shared/quality/OPERATIONAL_LEARNING_PROMOTION_POLICY.md",
+    "shared/quality/PUBLICATION_INTEGRITY_STANDARD_V2_3.md",
+    "shared/quality/PUBLICATION_QA_CANONICAL_OUTPUT_v1.3.8.md",
+    "shared/quality/PUBLICATION_VISIBILITY_POLICY_V2.md",
+    "shared/quality/QUALITY_PATTERN_LIBRARY.md",
+    "shared/quality/REVIEWER_PRECISION_RULES_v1.3.7.md",
+    "shared/quality/USER_FACING_TERMINOLOGY_JA.md",
+    "shared/quality/final-publication-output-principles.md",
+    "shared/strategy/editorial-strategy-selection.md",
+    "shared/strategy/problem-cause-strategy-map.md",
+    "shared/strategy/serp-gap-importance-policy.md",
+    "shared/validation/common-editorial-validation.md",
+    "shared/validation/creator-quality-hardening-validation.md",
+    "shared/validation/editorial-strategy-validation.md",
+    "shared/validation/evidence-contamination-validation.md",
+    "shared/validation/knowledge-confidence-validation.md",
+    "shared/validation/learning-registry-validation.md",
+    "shared/validation/natural-japanese-and-similarity-validation.md",
+    "shared/validation/publication-integrity-validation.md",
+    "shared/validation/publication-pipeline-integrity-validation.md",
+    "shared/validation/publication-qa-regression-validation.md",
+    "shared/validation/publication-qa-validation.md",
+    "shared/validation/quality-pattern-library-validation.md",
+    "shared/validation/rc2-final-integration-validation.md",
+    "shared/validation/real-article-publication-validation.md",
+    "shared/validation/release-final-quality-gates.md",
+    "shared/validation/shared-knowledge-validation.md",
+    "shared/validation/validation-message-integrity.md",
+    "templates/AFFILIATE_INPUT_TEMPLATE.md",
+    "templates/ARTICLE_LEARNING_RECORD_TEMPLATE.json",
+    "templates/ARTICLE_LEARNING_REPORT_TEMPLATE.json",
+    "templates/ARTICLE_OUTPUT_TEMPLATE.md",
+    "templates/AUTHOR_PROFILE_TEMPLATE.md",
+    "templates/BLOG_PROFILE_TEMPLATE.md",
+    "templates/COVERAGE_MAP_TEMPLATE.md",
+    "templates/EDITORIAL_BRIEF_TEMPLATE.md",
+    "templates/ENGINE_OUTPUT_TEMPLATE.md",
+    "templates/EVIDENCE_PLAN_TEMPLATE.md",
+    "templates/QUALITY_REPORT_TEMPLATE.md",
+    "templates/READER_JOURNEY_TEMPLATE.md",
+    "templates/UAT_HUMAN_FEEDBACK_TEMPLATE.md"
   ]
 }
