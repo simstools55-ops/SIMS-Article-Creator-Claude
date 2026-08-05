@@ -1,0 +1,11 @@
+{
+  "product_code": "CREATOR",
+  "product_name": "SIMS Article Creator",
+  "repository_name": "SIMS-Article-Creator-Claude",
+  "repository_type": "CLAUDE_PACKAGE",
+  "runtime": "CLAUDE_PROJECT",
+  "package_version": "1.6.1",
+  "product_compatibility": "1.6.x",
+  "platform_compatibility": "1.x",
+  "shared_version": "3.3.0"
+}

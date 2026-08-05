@@ -1,0 +1,21 @@
+{
+  "package_name": "SIMS-Article-Creator-Claude",
+  "package_version": "1.6.1",
+  "product_code": "CREATOR",
+  "compatible_product_versions": [
+    "1.6.x"
+  ],
+  "platform_compatibility": "1.x",
+  "shared_version": "3.3.0",
+  "supported_contracts": [
+    "SIMS_CREATOR_TREATMENT_REQUEST_V1",
+    "SIMS_CREATOR_TREATMENT_RESULT_V1",
+    "SIMS_PUBLICATION_RESULT_V1"
+  ],
+  "legacy_compatibility": [
+    "SIMS_ARTICLE_CREATOR_V1",
+    "SIMS_ARTICLE_LEARNING_RECORD_V1"
+  ],
+  "deployment_method": "Claude-Upload",
+  "generated_at": "2026-08-06T05:56:40+09:00"
+}
