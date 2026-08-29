@@ -4,9 +4,10 @@
   "repository_name": "SIMS-Article-Creator-Claude",
   "repository_type": "CLAUDE_PACKAGE",
   "runtime": "CLAUDE_PROJECT",
-  "package_version": "1.7.0",
-  "product_compatibility": "1.7.0",
+  "package_version": "1.7.1",
+  "product_compatibility": "1.7.1",
   "platform_compatibility": "1.x",
   "shared_version": "3.3.0",
-  "notes": "Personal Knowledge separation release; manual Claude Project workflow and Shared 3.3.0 compatibility baseline are preserved."
+  "notes": "v1.7.1 synchronizes current package/instruction version surfaces after v1.7.0 Personal Knowledge separation; no product behavior or contracts changed.",
+  "release_status": "PATCH"
 }

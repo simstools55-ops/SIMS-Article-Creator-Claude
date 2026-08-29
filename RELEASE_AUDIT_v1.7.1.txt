@@ -1,0 +1,18 @@
+SIMS Article Creator Claude v1.7.1 Release Audit
+Date: 2026-08-29
+
+Version policy: PATCH
+Reason: synchronize current version surfaces after the formally issued v1.7.0 package.
+
+Checks
+- Package test discovery: no tests collected (pre-existing package state)
+- CLAUDE_PROJECT_INSTRUCTIONS.md header: PASS — v1.7.1
+- PROJECT_INSTRUCTIONS.md header: PASS — v1.7.1
+- Claude-Upload instruction header: PASS — v1.7.1
+- Current product/package/deployment identity: PASS — v1.7.1
+- Known tenant/blog markers: PASS
+- Personal Knowledge separation from v1.7.0: preserved
+- Shared compatibility baseline: 3.3.0
+- Manual Claude Project workflow: unchanged
+
+Historical v1.6.2 labels intentionally retained only where they describe the historical v1.6.2 release or the Platform Treatment feature introduced in that release.

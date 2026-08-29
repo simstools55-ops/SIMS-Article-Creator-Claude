@@ -1,7 +1,7 @@
 {
-  "version": "1.7.0",
-  "generated_at": "2026-08-29T20:28:00+09:00",
-  "file_count": 327,
+  "version": "1.7.1",
+  "generated_at": "2026-08-29T20:35:00+09:00",
+  "file_count": 329,
   "files": [
     {
       "path": "APPLY-v1.6.2.md",
@@ -15,17 +15,17 @@
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "bf22bb22731c9b595b9f1b76f84cc7b67e4440242c5a0d4a3783231bbec90294",
+      "sha256": "fad0240c2e69630aecc8a27d1ba3a507b5cf2ab7918510c19ca7f9f390e04101",
       "size": 795
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "83d4710236c525199df034f7fff034b6efb35c57e000069316718d4b1cac228b",
+      "sha256": "37779a6baa781695c8fcb77e0511a5b5f8116a9a8a55c46b96b1de59c85bf516",
       "size": 562
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
+      "sha256": "273441e4a50e01920a1bde707a801f88a39c5680fd267abf6f5598ff93483ba0",
       "size": 14078
     },
     {
@@ -35,17 +35,17 @@
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "bf22bb22731c9b595b9f1b76f84cc7b67e4440242c5a0d4a3783231bbec90294",
+      "sha256": "fad0240c2e69630aecc8a27d1ba3a507b5cf2ab7918510c19ca7f9f390e04101",
       "size": 795
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "83d4710236c525199df034f7fff034b6efb35c57e000069316718d4b1cac228b",
+      "sha256": "37779a6baa781695c8fcb77e0511a5b5f8116a9a8a55c46b96b1de59c85bf516",
       "size": 562
     },
     {
       "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
+      "sha256": "273441e4a50e01920a1bde707a801f88a39c5680fd267abf6f5598ff93483ba0",
       "size": 14078
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "e6674517b7b7d5983b7a130d7960841f6d9f1793a328d16b438de7baa97a50b8",
+      "sha256": "7aff6b8538cd8ac4ea5f3f076062c15219bdf7456fa6de98c6125f76ba33341a",
       "size": 326
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "path": "Claude-Upload/UPLOAD_README.md",
-      "sha256": "efb7036c031f048faef643928049393f81ca965356752f2403b0b6d01f0be03e",
+      "sha256": "002d57139f974ce12e9a2cdc3a7db7d610ad4c1e12188eb3a014dbc9a525e52e",
       "size": 289
     },
     {
@@ -480,23 +480,28 @@
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "09a084f4a9615d3976685a8e316c0c2e8ac1613d2a9ff9d297902b7239c5859a",
-      "size": 465
+      "sha256": "bac7ae86f3e831d0338142c699616dfa084ebe91053f06eafd4aaa22e8a6a723",
+      "size": 520
     },
     {
       "path": "PROJECT_INSTRUCTIONS.md",
-      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
+      "sha256": "273441e4a50e01920a1bde707a801f88a39c5680fd267abf6f5598ff93483ba0",
       "size": 14078
     },
     {
       "path": "README.md",
-      "sha256": "d7bf6580e37c559c3e8c79d767e1b8f7e5c07fea47015a4b19ce07443b3dd5ca",
+      "sha256": "86b67f8cdbb7b1c0490cf0ad9ab93cb27466647c5ccd5e9eefdb278f02af68db",
       "size": 1442
     },
     {
       "path": "RELEASE_AUDIT_v1.7.0.txt",
       "sha256": "a34ad7bbfa7146c3bb890dd09243643631616fae878bebcf3898719f426259bd",
       "size": 500
+    },
+    {
+      "path": "RELEASE_AUDIT_v1.7.1.txt",
+      "sha256": "fb8d43944f9b72331f2f87755ec5df5273541a2a1d6e1bfceecf112831c3741f",
+      "size": 818
     },
     {
       "path": "RELEASE_NOTES_v1.3.0.md",
@@ -524,6 +529,11 @@
       "size": 506
     },
     {
+      "path": "RELEASE_NOTES_v1.7.1.md",
+      "sha256": "a891574426313d3567160a72a7efe3448b4b500ddc8d8a4316fcc346fc2f3e9c",
+      "size": 695
+    },
+    {
       "path": "SETUP_GUIDE_v1.5.1.md",
       "sha256": "5d6b4a9c328cb20f52b7a5277ec6aecde4edb240e08d344c6c14defc9956d60d",
       "size": 568
@@ -535,17 +545,17 @@
     },
     {
       "path": "VERSION",
-      "sha256": "bb7320d831e7a151aa901c35e7326c752fa2ef5024f30768c42319b8bed171ed",
+      "sha256": "249182a01164b81a5f7af87e5c5cdbd3344a80a7a66dfca624cecfb1501b2420",
       "size": 6
     },
     {
       "path": "claude-project/FILE_LIST.md",
-      "sha256": "095eec8aafd44a2865224423a5aa6e0158e51a234e98f501b3f72d5f73abdf1d",
+      "sha256": "e45ba9e8438826400de6464e8870ea6393b90dae37164ac43e2d8cef920f3897",
       "size": 345
     },
     {
       "path": "claude-project/INSTALLATION_GUIDE.md",
-      "sha256": "d34b248da3d6735cf3ffe92e05d387b0d357f961b02e92e31fbbb87c55e2c577",
+      "sha256": "52f2dcc0ec072e148246d8c2f29fe5d6f201a7e912ef819dd9ca5715dd8ea133",
       "size": 413
     },
     {
