@@ -1,6 +1,6 @@
 {
   "package_name": "SIMS-Article-Creator-Claude",
-  "package_version": "1.6.2",
+  "package_version": "1.7.0",
   "product_code": "CREATOR",
   "compatible_product_versions": [
     "1.6.x"

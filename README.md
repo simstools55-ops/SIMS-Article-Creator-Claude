@@ -1,4 +1,4 @@
-# SIMS Article Creator Claude Project v1.6.2
+# SIMS Article Creator Claude Project v1.7.0
 
 `PROJECT_INSTRUCTIONS.md`はClaude Projectの「手順」へ登録してください。`shared/`、`knowledge/`、`runtime/`、`patterns/`、`contracts/`、`templates/`はClaude Projectの「ファイル」へ登録します。
 
