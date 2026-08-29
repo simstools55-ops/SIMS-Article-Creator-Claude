@@ -1,4 +1,4 @@
-# Platform Treatment Runtime v1.6.1
+# Platform Treatment Runtime v1.6.2
 
 Platform Requestを受けた場合、次の順序で処理する。
 

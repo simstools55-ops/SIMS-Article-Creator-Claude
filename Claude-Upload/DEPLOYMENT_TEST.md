@@ -16,5 +16,5 @@ Project KnowledgeとProject Instructionsだけを根拠に、次を回答して�
 9. 参照したファイル名
 ```
 
-期待値：Product Version `1.6.1`、Shared Version `3.3.0`。
+期待値：Product Version `1.6.2`、Shared Version `3.3.0`。
 正式Contract：SIMS_CREATOR_TREATMENT_REQUEST_V1, SIMS_CREATOR_TREATMENT_RESULT_V1, SIMS_PUBLICATION_RESULT_V1

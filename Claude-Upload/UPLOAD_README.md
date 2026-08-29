@@ -2,4 +2,4 @@
 
 このフォルダー内のファイルをすべてSIMS Article Creator Claude Projectへ投入してください。
 旧Project Knowledgeはすべて削除してから投入してください。
-確認値: Product 1.6.0 / Shared 3.3.0 / Platform Contract 1.x
+確認値: Product 1.6.2 / Shared 3.3.0 / Platform Contract 1.x

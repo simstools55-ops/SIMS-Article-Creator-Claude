@@ -1,61 +1,66 @@
 {
-  "package": "SIMS-Article-Creator-Claude",
-  "version": "1.6.1",
-  "generated_at": "2026-08-06T05:56:40+09:00",
+  "version": "1.6.2",
+  "generated_at": "2026-08-29T17:10:00+09:00",
+  "file_count": 324,
   "files": [
     {
+      "path": "APPLY-v1.6.2.md",
+      "sha256": "39d13e5d83fe547171addddabd905b2ce8c0376367267d7aeb58de0d95685bcd",
+      "size": 206
+    },
+    {
       "path": "CHANGELOG.md",
-      "sha256": "daf50e46415562ac5553ff8c139a172d6e84d7f09e8eef847a165a36f257af20",
-      "size": 1483
+      "sha256": "deb3ce9e006abb3c829b74298db0991686e8f0cf09423292b0b91c782bdb5e02",
+      "size": 1520
     },
     {
       "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "125600d232ecb7706a36cf68ae9728c3bbfdd50f8e0ff92cedbb675704b3130c",
+      "sha256": "048810b1657e07bae2e94f5f472428beeacc3811b8e958bc383d3abd43bbaaae",
       "size": 795
     },
     {
       "path": "CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "403a64323b0cabfdb89ea980f11d80096529a33f5a8338d68fab78eab4153681",
+      "sha256": "6815f6edff8d6a8e77f6596e26bced5c0bc0390f07f8d6064cc294230f435ad1",
       "size": 562
     },
     {
       "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "4fbd75340573329f770928e68400c36c7d08d3aeb574de74a3c3abaac8a1310c",
+      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
       "size": 14078
     },
     {
       "path": "CLAUDE_UPDATE_GUIDE.md",
-      "sha256": "4a24e8a50503bf77ebd26d4fa27baa9ed17def0f27c55fdf5a9f92764762012c",
+      "sha256": "e75170139c2f518fe17e13e77c1b275ff71baf2b5ad17c822ecf17599590cb42",
       "size": 639
     },
     {
       "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
-      "sha256": "125600d232ecb7706a36cf68ae9728c3bbfdd50f8e0ff92cedbb675704b3130c",
+      "sha256": "048810b1657e07bae2e94f5f472428beeacc3811b8e958bc383d3abd43bbaaae",
       "size": 795
     },
     {
       "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
-      "sha256": "403a64323b0cabfdb89ea980f11d80096529a33f5a8338d68fab78eab4153681",
+      "sha256": "6815f6edff8d6a8e77f6596e26bced5c0bc0390f07f8d6064cc294230f435ad1",
       "size": 562
     },
     {
       "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
-      "sha256": "4fbd75340573329f770928e68400c36c7d08d3aeb574de74a3c3abaac8a1310c",
+      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
       "size": 14078
     },
     {
       "path": "Claude-Upload/CLAUDE_UPDATE_GUIDE.md",
-      "sha256": "4a24e8a50503bf77ebd26d4fa27baa9ed17def0f27c55fdf5a9f92764762012c",
+      "sha256": "e75170139c2f518fe17e13e77c1b275ff71baf2b5ad17c822ecf17599590cb42",
       "size": 639
     },
     {
       "path": "Claude-Upload/DEPLOYMENT_TEST.md",
-      "sha256": "76e59f539676e879ff6f2bb3138102c417b5d4c785cdd656227a364bf1db70a3",
+      "sha256": "ba92acc77b55beeeac88853ad712cc3f8d62b1f3ae82b56700d98b79ebc85193",
       "size": 611
     },
     {
       "path": "Claude-Upload/PRODUCT_IDENTITY.json",
-      "sha256": "d6a42abf9cbf8a02182c9c6544dd8ac7ae6deb8d179ea374d1928de73ec7b1e5",
+      "sha256": "ef90ba4e737e5229146b706f4685bb33ed8d8c5a5f06b382edcb671ddc2b3124",
       "size": 326
     },
     {
@@ -65,12 +70,12 @@
     },
     {
       "path": "Claude-Upload/UPLOAD_README.md",
-      "sha256": "2855c632fb2cf7549ab993e87bde69a1b3a1da829127006ba964904e44ffb689",
+      "sha256": "efb7036c031f048faef643928049393f81ca965356752f2403b0b6d01f0be03e",
       "size": 289
     },
     {
       "path": "Claude-Upload/VERSION",
-      "sha256": "6430a242e9486093ef6f71d9086d48f61ba102f0d2fb0f5b95334c6007a46db3",
+      "sha256": "a2d5e268fe70979caccd895156b3d33bd61a3cc7e660ab7a5b07066849b3e248",
       "size": 6
     },
     {
@@ -295,7 +300,7 @@
     },
     {
       "path": "Claude-Upload/runtime/PLATFORM_TREATMENT_RUNTIME.md",
-      "sha256": "01601fb81600ee56ae29247d681b579ff9f9d23aa78919b7342bddd1d423e874",
+      "sha256": "b1d2d6e5e6b4dd5464086bd0cc34c035c4d08da56c941b852f11ad87375415ea",
       "size": 918
     },
     {
@@ -460,43 +465,48 @@
     },
     {
       "path": "DEPLOYMENT_TEST.md",
-      "sha256": "76e59f539676e879ff6f2bb3138102c417b5d4c785cdd656227a364bf1db70a3",
+      "sha256": "ba92acc77b55beeeac88853ad712cc3f8d62b1f3ae82b56700d98b79ebc85193",
       "size": 611
     },
     {
       "path": "PACKAGE_MANIFEST.json",
-      "sha256": "907b7a559ac06e7814951cc264bf42f6a93e3a161dfb154598ea6ced3a0c5475",
+      "sha256": "af173294ca5f0bffd8f94b5eaa4861bd4e244960a9b900a6ddcbb1de46322e7b",
       "size": 732
     },
     {
       "path": "PRODUCT_IDENTITY.json",
-      "sha256": "d6a42abf9cbf8a02182c9c6544dd8ac7ae6deb8d179ea374d1928de73ec7b1e5",
+      "sha256": "ef90ba4e737e5229146b706f4685bb33ed8d8c5a5f06b382edcb671ddc2b3124",
       "size": 326
     },
     {
       "path": "PROJECT_INSTRUCTIONS.md",
-      "sha256": "4fbd75340573329f770928e68400c36c7d08d3aeb574de74a3c3abaac8a1310c",
+      "sha256": "25fa71785c3a17ef0a12182dcf156a2b8ccca8c303e9e092a5a90a05e4bb2e96",
       "size": 14078
     },
     {
       "path": "README.md",
-      "sha256": "9fe9466a9ca874e2f7b9d4ec1176922c2011e7b6db70c316efc51355e1876a2e",
+      "sha256": "2afa366ec50982e8b66ac73815a3da6c7e3f84ff450a69e0515146d746926b5d",
       "size": 1442
     },
     {
       "path": "RELEASE_NOTES_v1.3.0.md",
-      "sha256": "ac452c9899e69d8bb25beb396b33f2380607842d2fd0fc2c2ff94dd6266d545d",
-      "size": 415
+      "sha256": "8ebd213ddc46438941650332a18105b190325344eb2c324a05b365f8d3c7f0e8",
+      "size": 426
     },
     {
       "path": "RELEASE_NOTES_v1.4.0.md",
-      "sha256": "337403c1831ab15ac68bdfc9ba9b968eccd06b8b0f2ab3fb9a6712473b85e0ed",
-      "size": 909
+      "sha256": "1d0405310bae6fcc6c39db1072113b96be12a67873aeba46dc4e2e3ec1476741",
+      "size": 932
     },
     {
       "path": "RELEASE_NOTES_v1.5.0.md",
-      "sha256": "cdf9ff6817e21e444b32ed807a4054eaf44e5083617e7f8eab9156769263f0e1",
-      "size": 508
+      "sha256": "963a3be7da1cd26d2c469023758ea865cc652a144bd5c0791611f231a435b01d",
+      "size": 521
+    },
+    {
+      "path": "RELEASE_NOTES_v1.6.2.md",
+      "sha256": "e16431c86d1eee5d9c38955560ae57a4ad170e0a5b8b33d8925d07c4fa84c76c",
+      "size": 533
     },
     {
       "path": "SETUP_GUIDE_v1.5.1.md",
@@ -510,17 +520,17 @@
     },
     {
       "path": "VERSION",
-      "sha256": "6430a242e9486093ef6f71d9086d48f61ba102f0d2fb0f5b95334c6007a46db3",
+      "sha256": "a2d5e268fe70979caccd895156b3d33bd61a3cc7e660ab7a5b07066849b3e248",
       "size": 6
     },
     {
       "path": "claude-project/FILE_LIST.md",
-      "sha256": "a1c49cd4dc41b6d34e4ef6b6e3b05fa535fba7d246aa595d8d1c65100636190a",
+      "sha256": "095eec8aafd44a2865224423a5aa6e0158e51a234e98f501b3f72d5f73abdf1d",
       "size": 345
     },
     {
       "path": "claude-project/INSTALLATION_GUIDE.md",
-      "sha256": "cccb11497247335d77943536bbd22ac04bcffc18df8420613cf9a4a6f4a2c878",
+      "sha256": "d34b248da3d6735cf3ffe92e05d387b0d357f961b02e92e31fbbb87c55e2c577",
       "size": 413
     },
     {
@@ -835,7 +845,7 @@
     },
     {
       "path": "runtime/PLATFORM_TREATMENT_RUNTIME.md",
-      "sha256": "345a7688e0a49c53fd4c08af70ef25e0c2b13b51bb69649063e146fa58a24ae5",
+      "sha256": "b1d2d6e5e6b4dd5464086bd0cc34c035c4d08da56c941b852f11ad87375415ea",
       "size": 918
     },
     {
@@ -870,8 +880,8 @@
     },
     {
       "path": "shared/CHANGELOG.md",
-      "sha256": "40f5cc160dd88725143ba12281dbeeec765721e5950b97ad47ab718664e1e172",
-      "size": 7726
+      "sha256": "d8d5651f5764609024d107f8edc49964ca4224962cdc9d1d4495addc7a9c40db",
+      "size": 7924
     },
     {
       "path": "shared/Decision-Support.md",
@@ -890,8 +900,8 @@
     },
     {
       "path": "shared/INTERFACE_CONTRACTS_V2.md",
-      "sha256": "c1874509f12c3939ab3dd1fccb76acc0bc0a0ae7dc5018772d0e1aad61580341",
-      "size": 3636
+      "sha256": "ad297e8d259eceabbf89f1ef920e3275a1a4956a883968639b67f55d8efe84f6",
+      "size": 3644
     },
     {
       "path": "shared/Intent-Analysis.md",
@@ -905,8 +915,8 @@
     },
     {
       "path": "shared/LICENSE",
-      "sha256": "ce0c69a4019923878282e03bb1ce789260e592199a0fbbab67e77fefe0e97664",
-      "size": 158
+      "sha256": "32ddcbee27970ebb4be03be7b384369342f523f6827b78a12d324607b2ae88e4",
+      "size": 162
     },
     {
       "path": "shared/PLATFORM_INTEGRATION_POLICY.md",
